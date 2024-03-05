@@ -1,4 +1,8 @@
+from Classes.Animal import Animal
 from Classes.Pisica import Pisica
 
-animal = Pisica()
-animal.mananca()
+
+animals = [Pisica(), Animal(), Pisica(), Animal(), Animal()]
+
+for animal in animals:
+    animal.mananca()
